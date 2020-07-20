@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        i{
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="" class="form">
+            <input type="text" id = 'input'placeholder="Enter City">
+            <button type="submit" id="search">GET</button>
+        </form>
+        <div class="weather-display">
+            <div class="cloud-img">
+                <i id='sun' class="fa fa-cloud-sun fa-10x"></i>
+
+                <i id='cloud' class="fa fa-cloud fa-8x"></i>
+            </div>
+            <div class="temp-text">
+                <p class="temp"></p>
+                <p class="temp-description"></p>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
